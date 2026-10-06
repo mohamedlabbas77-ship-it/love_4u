@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Letter For You 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <div class="intro">
+      <p class="tiny">A LITTLE SURPRISE FOR YOU</p>
+      <h1>Valentine <span>Letter</span></h1>
+      <p class="subtitle">Open it when you're ready... 💌</p>
+    </div>
+
+    <section class="envelope-wrap" id="envelopeWrap">
+      <button class="envelope" id="openEnvelope" aria-label="Open the letter">
+        <div class="flap"></div>
+        <div class="envelope-heart">♥</div>
+        <div class="seal">OPEN</div>
+      </button>
+    </section>
+
+    <section class="letter hidden" id="letter">
+      <div class="letter-top">♡ A SECRET MESSAGE ♡</div>
+      <div class="window">
+        <div class="pixel-heart">♥</div>
+        <h2>Do you love me,<br>or are you just playing with me?</h2>
+
+        <div class="buttons" id="buttons">
+          <button class="yes-btn" id="yesBtn">YES ❤️</button>
+
+          <div class="no-wrap" id="noWrap">
+            <button class="no-btn" id="noBtn">NO 😭</button>
+          </div>
+        </div>
+
+        <p class="hint" id="hint">Choose carefully... 👀</p>
+      </div>
+    </section>
+
+    <section class="final hidden" id="final">
+      <div class="big-heart">❤️</div>
+      <h2 id="finalTitle">I knew it! 🥹</h2>
+      <p id="finalText">You just made me very happy, Maryam.</p>
+      <button class="again" id="againBtn">Read it again 💌</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
